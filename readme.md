@@ -1,9 +1,9 @@
 #TypeHint
 
->Bu sınıf php de desteklenmeyen `string`,`integer`,`float`,`double`,`resource`
->tip tanımlamarını desteklenmesini sağlar.
+>Bu sÄ±nÄ±f php de desteklenmeyen `string`,`integer`,`float`,`double`,`resource`
+>tip tanÄ±mlamarÄ±nÄ± desteklenmesini saÄŸlar.
 
-#Kullanım
+#KullanÄ±m
 
 ```php
 
@@ -75,8 +75,8 @@ echo $test;
 
 #Dikkat
 
->Bu şekilde tip tanımlaması yaptıktan sonra fonksiyonlarda ön tanımlı değer olarak sadece null ataması yapabilirsiniz
->Eğer farklı bir değer atarsanız `Fatal Error` hatasıyla karşılaşırız
+>Bu ÅŸekilde tip tanÄ±mlamasÄ± yaptÄ±ktan sonra fonksiyonlarda Ã¶n tanÄ±mlÄ± deÄŸer olarak sadece null atamasÄ± yapabilirsiniz
+>EÄŸer farklÄ± bir deÄŸer atarsanÄ±z `Fatal Error` hatasÄ±yla karÅŸÄ±laÅŸÄ±rÄ±z
 
 ```php
 

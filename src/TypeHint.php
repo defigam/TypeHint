@@ -23,6 +23,10 @@ class TypeHint
 
     ];
 
+	/**
+	* Gelen hataları yakalarayak ordaki tip hatalarını temizler
+	*/
+	
     public static function hint($errLevel, $errMessage)
     {
 
@@ -54,7 +58,7 @@ class TypeHint
                     $args = $back['args'];
                     $arg = $args[$arg];
 
-                    if (gettype($arg) != $getLastType) {
+                    if (gettype($arg) !== $getLastType) {
 
                         if ($dump = call_user_func(static::$types[$getLastType], $arg)) {
 
